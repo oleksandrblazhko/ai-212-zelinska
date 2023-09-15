@@ -1,2 +1,2 @@
-![CustomerMindMap](MaterialNeedsDetails/пп1.jpg)
+![пп1](MaterialNeedsDetails/пп1.jpg)
 
