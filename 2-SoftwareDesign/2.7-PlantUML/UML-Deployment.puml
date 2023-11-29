@@ -1,0 +1,42 @@
+@startuml
+
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<PC>>" as pc{
+	node "<<OS Windows>>" {
+		node "<<web navigator>>" {
+			component [.js]
+		}
+	}
+}
+
+interface "keyboard"
+interface "mouse"
+
+(keyboard) -- pc
+(mouse) -- pc
+
+node "<<Server #1>>" as serv1 {
+	node "<<OS Linux>>" {
+		node "<<Application Server Weblogic>>" {
+			component [.jar]
+		}
+	}
+}
+
+pc-- serv1
+
+node "<<Server #2>>" as serv2 {
+	node "<<OS  Linux>>" {
+		node "<<Database Server MySQL>>" {
+			database "Relation Database"
+		}
+	}
+}
+
+serv1 -- serv2
+@enduml
