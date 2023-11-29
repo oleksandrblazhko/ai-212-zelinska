@@ -1,6 +1,6 @@
 @startuml
 
-title Cpncept Classes Diagram 
+title Concept Classes Diagram 
 
 Class User
 Class Notification
