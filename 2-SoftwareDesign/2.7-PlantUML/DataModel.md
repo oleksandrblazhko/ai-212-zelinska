@@ -1,1 +1,1 @@
-![](https://raw.githubusercontent.com/oleksandrblazhko/ai-212-zelinska/branchForlab7/2-SoftwareDesign/2.7-PlantUML/DataModel.puml)
+![UML-Activity](http://www.plantuml.com/plantuml/proxy?cache=no&src=raw.githubusercontent.com/oleksandrblazhko/ai-212-zelinska/branchForlab7/2-SoftwareDesign/2.7-PlantUML/DataModel.puml)
