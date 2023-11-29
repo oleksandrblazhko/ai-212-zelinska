@@ -2,12 +2,12 @@
 
 title Cpncept Classes Diagram 
 
-Class Користувач
-Class Сповіщення
-Class Розклад
-Class Графік
+Class User
+Class Notification
+Class Schdule
+Class Timetable
 
-Користувач"1" --o "1"Сповіщення: керує
-Сповіщення"1" --o "+"Розклад: має
-Користувач"1" --o "+"Графік: керує
+User"1" --o "1"Notification: controls
+Notification"1" --o "+"Schedule: has
+User"1" --o "+"Timetable: controls
 @enduml
