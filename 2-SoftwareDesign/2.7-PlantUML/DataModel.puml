@@ -3,8 +3,6 @@ title Example of Relation Schema
 
 hide circle
 
-
-
 entity "Users" as tu {
     (PK) user_id
     --
