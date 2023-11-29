@@ -1,1 +1,1 @@
-![](//www.plantuml.com/plantuml/png/VO_1JiCm38RlUGfhft7OE-m25ow8YNDb9TuQoKvBd0ZGnBjZfG5QG4IgOl_zu-_tKGlcKeLTYOK9RbzHPhkdCpmIOubJWfCVIT2vCGO27xDdSdOesPCts3qfPTq1AfGALmTszW_tDr1D7s9emk7GBXACtAfpp5eI2hMESTNCgFeovU3Ulnad9fg7K7DBr6aQrZZTMdwGztSzKUiMRrjzrLDQdZnNPAF-vWkfueK-yRB6Rnp_muqJqsKeKMZ3y2E5ob_Z_MQx_lEloHtQX80jTwdckDgGi9IJbUBiwx9tHqjHXJy0)
+![](https://raw.githubusercontent.com/oleksandrblazhko/ai-212-zelinska/branchForlab7/2-SoftwareDesign/2.7-PlantUML/DataModel.puml)
