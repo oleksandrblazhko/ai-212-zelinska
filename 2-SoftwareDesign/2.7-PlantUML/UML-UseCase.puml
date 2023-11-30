@@ -3,29 +3,29 @@ title Usecase for Information system
 
 ' left to right direction
 
-actor Користувач
-actor Споживач
-actor :Скульптор-споживач:
+actor User
+actor Consumer
+actor :Sculptor-consumer:
 
-Споживач -|> Користувач 
-:Скульптор-споживач:-|> Користувач 
+Consumer -|> User
+:Sculptor-consumer:-|> User
 rectangle Software {
 
-    usecase (Переглянути інформацію)
-    usecase (Авторизувати користувача)
-    usecase (Отримати інформацію із рекомендацією про сон)
-    usecase (Створити профіль)
-    usecase (Розглянути інші профілі)
+    usecase (View information)
+    usecase (Authorize User)
+    usecase (Get information with sleep recommendation)
+    usecase (Create profile)
+    usecase (Consider other profiles)
     
-    (Отримати інформацію із рекомендацією про сон) .> (Авторизувати користувача) : include
-    (Створити профіль) .> (Авторизувати користувача) : include
-    (Розглянути інші профілі) .> (Авторизувати користувача) : include
-    (Переглянути інформацію) .> (Отримати інформацію із рекомендацією про сон) : extends
+    (Get sleep recommendation information) .> (Authorize user) : include
+    (Create profile) .> (Authorize user) : include
+    (Consider other profiles) .> (Authorize user) : include
+    (View information) .> (Get information with sleep recommendation) : extends
 
-    Користувач -- (Авторизувати користувача)
-    Споживач -- (Отримати інформацію із рекомендацією про сон)
-    :Скульптор-споживач: -- (Створити профіль)
-    :Скульптор-споживач: -- (Розглянути інші профілі)
+    User -- (Authorize user)
+    Consumer -- (Get information with sleep recommendation)
+    :Sculptor-consumer: -- (Create profile)
+    :Consumer Sculptor: -- (View other profiles)
 
 }
 @enduml
