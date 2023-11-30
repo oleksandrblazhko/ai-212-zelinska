@@ -1,0 +1,41 @@
+@startuml
+title Example of Relation Schema
+
+hide circle
+
+entity "Users" as tu {
+    (PK) user_id
+    --
+    email
+    firstname
+    lastname
+    password
+}
+
+entity "Sleep_durations" as tsd {
+    (PK) sleep_durations_id
+    --
+    (FK) user
+    sleep_start
+    sleep_end
+    quality
+}
+
+entity "Sleep_messages" as tsm {
+    (PK) Sleep_message_id
+    --
+    (FK) user
+    sending_time
+}
+
+entity "Schedules" as tsc {
+    (PK) schedule_id
+    --
+    (FK) message
+    day
+}
+
+tu --{ tsd
+tu --o tsm
+tsm --{ tsc
+@enduml

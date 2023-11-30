@@ -1,0 +1,13 @@
+@startuml
+
+title Concept Classes Diagram 
+
+Class User
+Class Notification
+Class Schdule
+Class Timetable
+
+User"1" --o "1"Notification: controls
+Notification"1" --o "+"Schedule: has
+User"1" --o "+"Timetable: controls
+@enduml

@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T14:05:33.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Pw811LpDI4ZUXNjBlRuB" version="22.0.0" type="device">
+  <diagram id="2btQNehk-OrLHHsJi033" name="Страница 1">
+    <mxGraphModel dx="989" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ASeGSV3bISbFehof7WLm-1" value="&amp;lt;&amp;lt;Настільний комп&#39;ютер&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-6" value="&amp;lt;&amp;lt;OS Windows&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="180" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-7" value="&amp;lt;&amp;lt;Веб-навігатор&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-8" value="&amp;lt;&amp;lt;сервер 1&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="140" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-9" value="*.js&#xa;(Hivext)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="130" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-10" value="&amp;lt;&amp;lt;OS Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="180" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-12" value="&amp;lt;&amp;lt;Application &lt;br&gt;Server Weblogic&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="220" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-11" value="&#xa;*.jar" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="270" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-13" value="&amp;lt;&amp;lt;сервер 2&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="140" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-14" value="&amp;lt;&amp;lt;OS Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="180" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-15" value="&amp;lt;&amp;lt;Database &lt;br&gt;Server MySQL&amp;gt;&amp;gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="220" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-17" value="&lt;br&gt;Relation&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="580" y="270" width="70" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="310" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529.9999999999999" y="390" as="sourcePoint" />
+            <mxPoint x="529.9999999999999" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=100;entryDy=0;entryPerimeter=0;" parent="1" target="ASeGSV3bISbFehof7WLm-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=100;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549.9999999999999" y="240" as="sourcePoint" />
+            <mxPoint x="509.9999999999999" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.76" y="350" as="sourcePoint" />
+            <mxPoint x="139.76" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.52" y="350" as="sourcePoint" />
+            <mxPoint x="229.52" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-24" value="клавіатура" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" parent="1" vertex="1">
+          <mxGeometry x="130" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ASeGSV3bISbFehof7WLm-25" value="манімулятор&lt;br&gt;&quot;миша&quot;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" parent="1" vertex="1">
+          <mxGeometry x="220" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

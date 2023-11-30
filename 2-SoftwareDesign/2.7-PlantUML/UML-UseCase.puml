@@ -1,0 +1,31 @@
+@startuml
+title Usecase for Information system
+
+' left to right direction
+
+actor User
+actor Consumer
+actor :Sculptor-consumer:
+
+Consumer -|> User
+:Sculptor-consumer:-|> User
+rectangle Software {
+
+    usecase (View information)
+    usecase (Authorize User)
+    usecase (Get information with sleep recommendation)
+    usecase (Create profile)
+    usecase (Consider other profiles)
+    
+    (Get sleep recommendation information) .> (Authorize user) : include
+    (Create profile) .> (Authorize user) : include
+    (Consider other profiles) .> (Authorize user) : include
+    (View information) .> (Get information with sleep recommendation) : extends
+
+    User -- (Authorize user)
+    Consumer -- (Get information with sleep recommendation)
+    :Sculptor-consumer: -- (Create profile)
+    :Consumer Sculptor: -- (View other profiles)
+
+}
+@enduml

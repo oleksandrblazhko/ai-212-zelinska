@@ -1,0 +1,19 @@
+@startuml
+
+title Activity Diagram of generateSendingTime
+
+start
+
+:User share information about his sleeping to program; 
+:Program checks information;
+
+if (Is information valid?) then (yes)
+  :Generate time when message will be sent;
+else (no)
+  :Your data is corrupted, try later!;
+endif
+
+stop
+
+@enduml
+
