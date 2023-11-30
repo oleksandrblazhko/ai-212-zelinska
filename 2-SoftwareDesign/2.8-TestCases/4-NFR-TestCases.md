@@ -1,6 +1,6 @@
 |NFR id|Test Case id|Опис кроків тестового сценарію|Опис очікуваних результатів|
 |:-:|:-:|:-|:-:|
-|NFR1.1|TC1.5|Початкові умови: відсутні. <br> Кроки сценарію: відсутні.|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-211-ivanov/assets/88278468/7f411086-88dd-4b85-8901-1b50dab6bb01)
-|NFR1.1|TC1.6|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) В поле «Назва» внесено значення: Проєкт 1 <br> 2) В поле «Опис» внесено значення: Це опис проекту 1<br> |Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-211-ivanov/assets/88278468/ae2db5d9-3319-49c1-8f8f-352c2e09fb94)
-|NFR1.1|TC1.7|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) Натиснуто кнопку «Опублікувати»|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-211-ivanov/assets/88278468/ede17ee1-b5aa-4e64-bced-7694a53a31bd)
+|NFR1.1|TC1.5|Початкові умови: відсутні. <br> Кроки сценарію: відсутні.|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-212-zelinska/blob/branchForLab8/2-SoftwareDesign/2.8-TestCases/ScreenForm1.png)
+|NFR1.1|TC1.6|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) В поле «Назва» внесено значення: Проєкт 1 <br> 2) В поле «Опис» внесено значення: Це опис проекту 1<br> |Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-212-zelinska/blob/branchForLab8/2-SoftwareDesign/2.8-TestCases/ScreenForm2.png)
+|NFR1.1|TC1.7|Початкові умови: успішно пройдено TC1.6. <br> Кроки сценарію: <br> 1) Натиснуто кнопку «Опублікувати»|Екрана форма: <br> ![image](https://github.com/oleksandrblazhko/ai-212-zelinska/blob/branchForLab8/2-SoftwareDesign/2.8-TestCases/ScreenForm3.png)
 
