@@ -1,6 +1,6 @@
 CREATE TABLE Users (
     user_id INT PRIMARY KEY,
-    email VARCHAR(255) CHECK (email ~ '^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$'),
+    email VARCHAR(255) CHECK (email ~ '^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$'),
     name VARCHAR(255),
     surname VARCHAR(255),
     password VARCHAR(255) CHECK (password ~ '^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,32}$')
